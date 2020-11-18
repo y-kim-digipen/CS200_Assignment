@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{6f62f517-f794-4ef9-9f68-a30326c0c680}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{c8e51235-7935-4cf0-a9bb-34071b8462c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Run">
+      <UniqueIdentifier>{1959e3c1-ce76-4d49-9fcf-0989558e7a77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cs200_affine_mesh\Render.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_affine_mesh\Affine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_affine_mesh\CubeMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_camera_frustum\SnubDodecMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_camera_frustum\Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_transform_projections\CameraRender2D.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_transform_projections\Projection.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_camera_frustum\SimpleRender.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_camera_frustum\FrustumMesh.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_zbuffer\TriangleTest.cpp">
+      <Filter>Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_zbuffer\TriangleZTest.cpp">
+      <Filter>Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_zbuffer\RasterUtilities.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cs200_affine_mesh\Affine.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_affine_mesh\CubeMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_affine_mesh\Render.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_affine_mesh\Mesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_camera_frustum\Camera.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_camera_frustum\FrustumMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_camera_frustum\SimpleRender.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_camera_frustum\SnubDodecMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_transform_projections\CameraRender2D.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_transform_projections\Projection.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_zbuffer\Raster.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_zbuffer\RasterUtilities.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangle2DMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
