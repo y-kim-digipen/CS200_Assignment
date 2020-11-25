@@ -39,14 +39,26 @@
     <ClCompile Include="..\cs200_camera_frustum\FrustumMesh.cpp">
       <Filter>Source</Filter>
     </ClCompile>
-    <ClCompile Include="..\cs200_zbuffer\TriangleTest.cpp">
-      <Filter>Run</Filter>
-    </ClCompile>
-    <ClCompile Include="..\cs200_zbuffer\TriangleZTest.cpp">
-      <Filter>Run</Filter>
-    </ClCompile>
     <ClCompile Include="..\cs200_zbuffer\RasterUtilities.cpp">
       <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_clipping\ClipDemo.cpp">
+      <Filter>Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_clipping\CollisionDemo.cpp">
+      <Filter>Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_clipping\HalfSpaceTest.cpp">
+      <Filter>Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_clipping\HalfSpace.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_clipping\Clip.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cs200_clipping\ClipTest.cpp">
+      <Filter>Run</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +99,12 @@
       <Filter>Header</Filter>
     </ClInclude>
     <ClInclude Include="Triangle2DMesh.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_clipping\Clip.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cs200_clipping\HalfSpace.h">
       <Filter>Header</Filter>
     </ClInclude>
   </ItemGroup>
